@@ -1,12 +1,10 @@
 package com.in28minutes.rest.webservices.restfulwebservices;
 
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.in28minutes.rest.webservices.resdtfulwebservices.user.RestfulWebServicesApplication;
 import com.in28minutes.rest.webservices.resdtfulwebservices.user.UserResource;
