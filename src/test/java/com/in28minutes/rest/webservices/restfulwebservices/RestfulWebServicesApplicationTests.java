@@ -15,8 +15,8 @@ import com.in28minutes.rest.webservices.resdtfulwebservices.user.UserResource;
 
  
  
-@RunWith(SpringJUnit4ClassRunner.class)
-//@SpringBootTest(classes =com.in28minutes.rest.webservices.resdtfulwebservices.user.UserResource.class)
+ 
+@SpringBootTest(classes =com.in28minutes.rest.webservices.resdtfulwebservices.user.UserResource.class)
 @Import(com.in28minutes.rest.webservices.resdtfulwebservices.user.UserDAOService.class)
 @ContextConfiguration(classes = RestfulWebServicesApplication.class)
 class RestfulWebServicesApplicationTests {
