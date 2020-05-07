@@ -4,18 +4,19 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
+import org.springframework.test.context.ContextConfiguration;
 
+import com.in28minutes.rest.webservices.resdtfulwebservices.user.RestfulWebServicesApplication;
 import com.in28minutes.rest.webservices.resdtfulwebservices.user.UserResource;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
-
 
 
  
  
-@Ignore
+
 @SpringBootTest(classes =com.in28minutes.rest.webservices.resdtfulwebservices.user.UserResource.class)
 @Import(com.in28minutes.rest.webservices.resdtfulwebservices.user.UserDAOService.class)
+@ContextConfiguration(classes = RestfulWebServicesApplication.class)
 class RestfulWebServicesApplicationTests {
 	
 	@Autowired(required=true)

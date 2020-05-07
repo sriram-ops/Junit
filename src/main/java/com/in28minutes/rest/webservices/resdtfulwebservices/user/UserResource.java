@@ -17,7 +17,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 @RestController
 public class UserResource {
 
-	Logger logger = LoggerFactory.getLogger(UserResource.class);
+	 
 
 	@Autowired
 	private UserDAOService service;
