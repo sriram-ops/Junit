@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Import;
 import com.in28minutes.rest.webservices.resdtfulwebservices.user.UserResource;
 
  
-@SpringBootApplication 
+ 
 
 @SpringBootTest(classes =com.in28minutes.rest.webservices.resdtfulwebservices.user.UserResource.class)
 @Import(com.in28minutes.rest.webservices.resdtfulwebservices.user.UserDAOService.class)
