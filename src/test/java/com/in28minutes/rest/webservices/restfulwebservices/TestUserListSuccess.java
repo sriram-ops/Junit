@@ -12,8 +12,7 @@ import org.springframework.util.Assert;
 import com.in28minutes.rest.webservices.resdtfulwebservices.user.User;
 import com.in28minutes.rest.webservices.resdtfulwebservices.user.UserResource;
 
-@SpringBootTest(classes =com.in28minutes.rest.webservices.resdtfulwebservices.user.UserResource.class)
-@Import(com.in28minutes.rest.webservices.resdtfulwebservices.user.UserDAOService.class)
+ @Import(com.in28minutes.rest.webservices.resdtfulwebservices.user.UserDAOService.class)
 public class TestUserListSuccess {
 	
  
