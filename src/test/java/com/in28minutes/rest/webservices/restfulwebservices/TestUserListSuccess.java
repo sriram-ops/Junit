@@ -27,7 +27,7 @@ public class TestUserListSuccess {
 		    
 		  User savedUser =  userResource.createUser(user);  
 		  
-		  Assert.hasText("SriRam",savedUser.getName());
+		  Assert.hasText("",savedUser.getName());
 		/*
 		 * ResponseEntity<User> responseEntity = userResource.createUser(user); int code
 		 * =responseEntity.getStatusCodeValue(); String code1= String.valueOf(code);
