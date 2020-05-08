@@ -2,12 +2,11 @@ pipeline {
     agent any
 
     stages {
-       stage('SCM Checkout'){
-       
-        checkout scm 
-        
+         stage('SCM Checkout'){
+           steps{
+                checkout scm
+           }
         }
-    
         stage('Build') {
             steps {
                 sh "/usr/share/maven/bin/mvn clean install package"
